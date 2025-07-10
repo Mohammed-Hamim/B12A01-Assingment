@@ -53,6 +53,8 @@
 .header-bg {
     background-image: url('../Assets/Hero-bg.png');
     background-repeat: no-repeat;
+    /* background-position: center center; */
+    background-size: cover;
 }
 
 /* Nav Section Styling */
@@ -74,23 +76,21 @@
 .banner-section {
     margin: 0 auto;
     text-align: center;
+    padding:158px 0px 200px 0px;
 }
 
 .banner-title {
-    margin-top: 158px;
     font-size: 65px;
     font-weight: bold;
     color: #252432;
     margin-bottom: 37px;
 }
 
-.focus-btn {
-    margin-bottom: 200px;
-}
+
 
 /* Action Section Styling */
 .action-section {
-    margin: auto;
+    margin: 116px auto 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
