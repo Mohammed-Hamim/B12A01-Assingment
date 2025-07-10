@@ -21,7 +21,6 @@
 /* shared width */
 .width-1140 {
     max-width: 1140px;
-     
 
 }
 
@@ -112,4 +111,38 @@
 }
 .action-image img{
     border-radius: 48px;
+}
+
+/* Active User Section Styling */
+.userSection{
+    margin: 116px auto 0px;
+    background-color: #E5E7FF;
+    border-radius: 24px;
+    text-align: center;
+    padding: 50px 80px;
+    box-sizing: border-box;
+}
+
+.user-title{
+    font-size: 38px;
+    font-weight: bold;
+    color:#252432;
+}
+
+.user-data-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.user-data h4{
+    font-size: 80px;
+    font-weight: bold;
+    color:#4E47FF;
+}
+
+.user-data p{
+     font-size: 20px;
+    font-weight: 400;
+    color:#000000;
 }
