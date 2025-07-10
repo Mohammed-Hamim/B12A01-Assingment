@@ -21,7 +21,7 @@
 /* shared width */
 .width-1140 {
     max-width: 1140px;
-    
+     
 
 }
 
@@ -38,7 +38,9 @@
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    
 }
+
 
 
 /* Shared Styles starts*/
@@ -51,7 +53,7 @@
 
 /* Nav Section Styling */
 .nav-section {
-    margin: 0 auto;
+    margin: 0 auto ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,13 +68,48 @@
 
 /* Banner Section Styling */
 .banner-section{
-     margin:0 auto;
-    padding: 158px 0px 200px 0px;
+    margin: 0 auto;
     text-align: center;
 }
 .banner-title {
+    margin-top: 158px;
     font-size: 65px;
     font-weight: bold;
     color:#252432;
     margin-bottom: 37px;
+}
+.focus-btn {
+    margin-bottom: 200px;
+}
+
+/* Action Section Styling */
+.action-section{
+    margin: auto ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10%;
+}
+.action-content, .action-image{
+    width: 45%;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color:#252432;
+    margin-bottom: 23px;
+}
+
+.action-description {
+    font-size: 24px;
+    font-weight: 400;
+     color:#252432;
+     line-height: 30px;
+     margin-bottom: 23px;
+}
+.action-image{
+    text-align: right;
+}
+.action-image img{
+    border-radius: 48px;
 }
