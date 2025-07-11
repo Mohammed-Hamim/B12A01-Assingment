@@ -257,3 +257,57 @@
 .big-wlc-pic img{
     border-radius: 48px;
 }
+
+/* Get In Touch Section styles */
+.get-in-touch{
+    margin: 110px auto 0px;
+    padding:71px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-form form *{
+    display: block;
+    width: 497px;
+}
+.get-in-touch-title{
+   
+    font-size: 97px;
+    font-weight: bold;
+    color:#000000;
+    line-height: 120%;
+}
+
+.contact-form form input{
+    border:1px solid #D6DDED;
+    border-radius:10px;
+    padding:32px 20px;
+    display: block;
+    width: 497px;
+    box-sizing: border-box;
+    margin-bottom: 19px;
+} 
+.contact-form form textarea{
+    border:1px solid #D6DDED;
+    border-radius:10px;
+    padding:32px 20px;
+    display: block;
+    width: 497px;
+    box-sizing: border-box;
+    margin-bottom: 19px;
+} 
+
+.contact-form form label{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.get-touch-btn{
+    padding:101px 19px ;
+    font-size: 16px;
+    font-weight: bold;
+    width: 497px;
+}
+
