@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.body-bg {
+    background-color: #F5F8FF;
+}
+
 /* fonts */
 
 .inter {
@@ -16,10 +20,6 @@
 
 }
 
-/* main styles */
-.body-bg {
-    background-color: #F5F8FF;
-}
 
 /* Shared Styles starts*/
 
