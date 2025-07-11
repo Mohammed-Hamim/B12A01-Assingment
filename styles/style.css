@@ -17,7 +17,7 @@
 }
 
 /* main styles */
-.body-bg{
+.body-bg {
     background-color: #F5F8FF;
 }
 
@@ -42,7 +42,15 @@
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    transition: 1s;
 
+}
+
+.sharedBtn:hover {
+    cursor: pointer;
+    background-color: #72c0b3;
+    color: #d58c0d;
+    font-size: 17px;
 }
 
 
@@ -76,7 +84,7 @@
 .banner-section {
     margin: 0 auto;
     text-align: center;
-    padding:158px 0px 200px 0px;
+    padding: 158px 0px 200px 0px;
 }
 
 .banner-title {
@@ -172,13 +180,13 @@
     margin-bottom: 50px;
 }
 
-.review-card-container{
+.review-card-container {
     display: flex;
-    column-gap:20px;
+    column-gap: 20px;
 }
 
 .review-card {
-    background-color: #FAFCFF; 
+    background-color: #FAFCFF;
     box-shadow: 0 4px 4px #F2EDED;
     border-radius: 14px;
     padding: 24px;
@@ -208,106 +216,145 @@
     display: flex;
     column-gap: 12px;
 }
-.reviewer-name{
+
+.reviewer-name {
     font-size: 16px;
     font-weight: 600;
     color: #757575;
     line-height: 140%;
-    
+
 }
-.review-date{
+
+.review-date {
     font-size: 16px;
     font-weight: 400;
     color: #B3B3B3;
     line-height: 140%;
-    
+
 }
 
 /* Big Welcome Banner Section styles */
-.big-wlc-section{
+.big-wlc-section {
     margin: 137px auto 0px;
     background-color: #FFFFFF;
     text-align: center;
     border-radius: 14px;
-    padding:71px 0px;
+    padding: 71px 0px;
 }
 
-.wlc-title{
+.wlc-title {
     font-size: 50px;
     font-weight: bold;
-    color:#000000;
+    color: #000000;
     line-height: 120%;
     margin-bottom: 20px;
 }
-.wlc-sub-title{
+
+.wlc-sub-title {
     font-size: 16px;
     font-weight: 400;
-    color:#4b4949;
+    color: #4b4949;
     line-height: 140%;
     margin-bottom: 20px;
 }
 
-.getStr-btn{
+.getStr-btn {
     font-size: 16px;
     font-weight: 500;
     line-height: 150%;
     margin-bottom: 20px;
 }
 
-.big-wlc-pic img{
+.big-wlc-pic img {
     border-radius: 48px;
 }
 
 /* Get In Touch Section styles */
-.get-in-touch{
+.get-in-touch {
     margin: 110px auto 0px;
-    padding:71px 0;
+    padding: 71px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.contact-form form *{
+.contact-form form * {
     display: block;
     width: 497px;
 }
-.get-in-touch-title{
-   
+
+.get-in-touch-title {
+
     font-size: 97px;
     font-weight: bold;
-    color:#000000;
+    color: #000000;
     line-height: 120%;
 }
 
-.contact-form form input{
-    border:1px solid #D6DDED;
-    border-radius:10px;
-    padding:32px 20px;
+.contact-form form input {
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    padding: 32px 20px;
     display: block;
     width: 497px;
     box-sizing: border-box;
     margin-bottom: 19px;
-} 
-.contact-form form textarea{
-    border:1px solid #D6DDED;
-    border-radius:10px;
-    padding:32px 20px;
-    display: block;
-    width: 497px;
-    box-sizing: border-box;
-    margin-bottom: 19px;
-} 
+}
 
-.contact-form form label{
+.contact-form form textarea {
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    padding: 32px 20px;
+    display: block;
+    width: 497px;
+    box-sizing: border-box;
+    margin-bottom: 19px;
+}
+
+.contact-form form label {
     font-size: 18px;
     font-weight: 600;
     line-height: 120%;
 }
 
-.get-touch-btn{
-    padding:101px 19px ;
+.get-touch-btn {
+    padding: 101px 19px;
     font-size: 16px;
     font-weight: bold;
     width: 497px;
 }
 
+/* footer section styles */
+.footer-section {
+    background-color: #FFFFFF;
+    border-top: 1px solid rgba(0, 0, 0, 10%);
+    text-align: center;
+    padding: 104px 455px;
+
+}
+
+.footer-logo {
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.footer-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+
+.page-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-links a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+    line-height: 150%;
+}
